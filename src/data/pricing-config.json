@@ -1,0 +1,9 @@
+{
+  "material": "热胶热敏纸不干胶",
+  "materialPrice": 1.6,
+  "edgeMm": 4,
+  "gapMm": 3,
+  "processLt100": 1,
+  "process100To500": 0.6,
+  "process500To2000": 0.45
+}
