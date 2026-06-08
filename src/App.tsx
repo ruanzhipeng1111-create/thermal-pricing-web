@@ -5,18 +5,9 @@ import EmptyState from "./components/EmptyState";
 import Header from "./components/Header";
 import InputPanel from "./components/InputPanel";
 import ResultCards from "./components/ResultCards";
-import ZkhPricingPage from "./components/ZkhPricingPage";
 import { useQuoteState } from "./hooks/useQuoteState";
 
 export default function App() {
-  if (window.location.pathname === "/zkh-pricing") {
-    return <ZkhPricingPage />;
-  }
-
-  return <MarketPricingPage />;
-}
-
-function MarketPricingPage() {
   const {
     input,
     quoteResult,

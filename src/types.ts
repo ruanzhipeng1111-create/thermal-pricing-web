@@ -51,64 +51,10 @@ export type QuoteInput = {
 
 export type QuoteResult = {
   area: number;
-  materialPrice: number;
   processPrice: number;
   quote: number;
   suggestedFloor: number;
   suggestedRegular: number;
   minCompetitorPrice: number | null;
   avgCompetitorPrice: number | null;
-  maxCompetitorPrice: number | null;
-};
-
-export type ZkhMaterialConfig = {
-  material: string;
-  materialPrice: number;
-  edgeMm: number;
-  gapMm: number;
-  processLt100: number;
-  process100To300: number;
-  process300To2000: number;
-  processGte2000: number;
-};
-
-export type ZkhQuoteInput = {
-  width: number;
-  height: number;
-  sheets: number;
-  rolls: number;
-};
-
-export type ZkhQuoteFormInput = {
-  material: string;
-  width: string;
-  height: string;
-  sheets: string;
-  rolls: string;
-};
-
-export type ZkhCommonSize = {
-  sku: string;
-  productName: string;
-  model: string;
-  spec: string;
-  unit: string;
-  width: number;
-  height: number;
-  sheets: number;
-  supplierPrice: number;
-};
-
-export type ZkhTradePrice = {
-  productName: string;
-  model: string;
-  spec: string;
-  unit: string;
-  width: number;
-  height: number;
-  sheets: number;
-  area: number;
-  materialPrice: number;
-  processPrice: number;
-  purchasePrice: number;
 };
