@@ -1,0 +1,112 @@
+[
+  {
+    "material": "铜版纸不干胶",
+    "materialPrice": 1.55,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 0.8,
+    "process100To300": 0.6,
+    "process300To2000": 0.45,
+    "processGte2000": 0.4
+  },
+  {
+    "material": "热胶热敏纸不干胶",
+    "materialPrice": 1.7,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 0.8,
+    "process100To300": 0.6,
+    "process300To2000": 0.45,
+    "processGte2000": 0.4
+  },
+  {
+    "material": "热胶合成纸不干胶",
+    "materialPrice": 2.5,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.2,
+    "process100To300": 1,
+    "process300To2000": 0.8,
+    "processGte2000": 0.7
+  },
+  {
+    "material": "亚银不干胶",
+    "materialPrice": 3.6,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.5,
+    "process100To300": 1,
+    "process300To2000": 1,
+    "processGte2000": 0.8
+  },
+  {
+    "material": "亮白PET不干胶",
+    "materialPrice": 3.6,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.5,
+    "process100To300": 1,
+    "process300To2000": 1,
+    "processGte2000": 0.8
+  },
+  {
+    "material": "热敏合成纸可移不干胶",
+    "materialPrice": 3.5,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.5,
+    "process100To300": 1,
+    "process300To2000": 0.8,
+    "processGte2000": 0.7
+  },
+  {
+    "material": "合成可移不干胶",
+    "materialPrice": 2.9,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.5,
+    "process100To300": 1,
+    "process300To2000": 1,
+    "processGte2000": 0.8
+  },
+  {
+    "material": "可移铜版纸",
+    "materialPrice": 2.5,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.5,
+    "process100To300": 1,
+    "process300To2000": 1,
+    "processGte2000": 0.8
+  },
+  {
+    "material": "彩色铜版纸",
+    "materialPrice": 2.55,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.2,
+    "process100To300": 0.8,
+    "process300To2000": 0.6,
+    "processGte2000": 0.5
+  },
+  {
+    "material": "彩色热敏纸",
+    "materialPrice": 2.7,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.2,
+    "process100To300": 0.8,
+    "process300To2000": 0.6,
+    "processGte2000": 0.5
+  },
+  {
+    "material": "彩色合成纸",
+    "materialPrice": 3.3,
+    "edgeMm": 4,
+    "gapMm": 3,
+    "processLt100": 1.2,
+    "process100To300": 1,
+    "process300To2000": 0.8,
+    "processGte2000": 0.5
+  }
+]

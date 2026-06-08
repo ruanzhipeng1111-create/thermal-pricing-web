@@ -57,10 +57,12 @@ export function useQuoteState() {
 
     return {
       area: calculated.area,
+      materialPrice: pricingConfig.materialPrice,
       processPrice: calculated.processPrice,
       quote: calculated.quote,
       minCompetitorPrice: matchedSummary?.minPrice ?? null,
       avgCompetitorPrice: matchedSummary?.avgPrice ?? null,
+      maxCompetitorPrice: matchedSummary?.maxPrice ?? null,
       suggestedFloor: suggested.suggestedFloor,
       suggestedRegular: suggested.suggestedRegular,
     };
